@@ -64,7 +64,9 @@ body > * {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 720px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .intro button {
@@ -96,20 +98,27 @@ body > * {
 .cards {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 45px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    width: 150px;
+    align-items: center;
+    width: min-content;
 }
 
 .small-image {
-    height: 150px;
+    width: 100px;
+    padding: 50px;
     border: 3px solid #3882f6;
     border-radius: 20px;
+    flex: none;
+}
+
+.description {
+    width: fit-content;
 }
 
 .quote {
@@ -175,4 +184,9 @@ body > * {
     display: flex;
     padding: 40px;
     justify-content: center;
+    gap: 20px;
+}
+
+.footer a {
+    color: #3882f6;
 }
