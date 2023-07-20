@@ -168,3 +168,11 @@ body > * {
     font-weight: 800;
     font-size: 16px;
 }
+
+.footer {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
