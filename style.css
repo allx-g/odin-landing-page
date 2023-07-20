@@ -7,7 +7,6 @@ body {
 }
 
 body > * {
-    min-width: 300px;
     padding: 0 150px;
     
 }
@@ -141,4 +140,27 @@ body > * {
     font-weight: 800;
     flex: none;
     align-self: flex-end;
+}
+
+.container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 40px 90px;
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container h2,
+.container p {
+    margin: 0;
+    padding: 0;
+}
+
+.container button {
+    border: none;
+    color: #f9faf8;
+    background-color: #3882f6;
 }
